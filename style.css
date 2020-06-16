@@ -1,131 +1,161 @@
 body {
-	background: yellow;
-	font-family: 'DM Mono', monospace; 
+	font-family: 'Roboto Condensed', sans-serif;
+	margin-left:auto;
+    margin-right:auto;
+	background: #FFF8D9;
+	color : #6E5843; 
+	font-size: 21px;
+	}
+p{
+
+	align-items: center; 
+	padding: 60px; 
 }
-.text-center {
-	text-align: center;
+ul {
+	align-items: center; 
+	margin-left: 80px; 
+	margin-right: 80px; 
 }
-.text-left {
-  text-align: left;
-}
-h1 {
-	color: black;
-	font-size: 40px;
-	font-family: 'DM Mono', monospace; 
-}
-h2,h3,h4 {
-	color: black;
-	font-size: 34px;
-	font-family: 'DM Mono', monospace; 
-}
-.color-purple {
-	color: purple;
-}
-a:hover {
-  color: purple;
-  text-decoration: none;
+h1{
+color: #FF6276; 
+font-size: 80px; 
+padding: 20px; 
+text-align: center;
 }
 
-a,a:hover {
-  text-decoration: none;
+h2{
+padding: 10px;
+color: #FF5F76; 
+}
+h3
+{
+	text-align: center; 
+	color: #FF5F76; 
+	font-size : 35px;
+}
+h4
+{
+	font-size: 50px;
+	color: white;
+}
+.my-navbar {
+  display: flex;
+  align-items: center;
+  background: #FF6276;
+  height: 80px; 
+  justify-content: flex-end;
+  padding: 40px; 
 }
 
-.production {
-    width: 300px;
-    height: 200px;
+.links {
+  display: flex;
+  align-items: center; 
+}
+
+.link {
+  margin: 10px 30px;
+  color: white;
+  margin-right: 60px; 
+}
+
+.link:hover {
+  color: #582900;
+}
+.colonne {
+     display: flex;
+    justify-content: space-between;
+    margin: 80px 80px;
+
+ 
+}
+
+.img {
+	width: 300px;
+    height: 300px;
     object-fit: cover;
-    border-radius: 3px;
-    box-shadow: 2px 2px 10px grey;
-    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px grey;
 }
-.avatar {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 5px 5px 10px grey;
+.intro {
+	display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+
 }
 .cadre {
-	background: pink;
-	border: 5px solid lightgreen;
+	background: #FF5F76;
+	border: 2px solid pink;
 	margin: 100px; 
-	padding: 30px;
+	padding: 20px;
 	border-radius: 30px;
 	box-shadow: 10px 10px 10px grey; 
+	text-align: center;
 }
-.btn-pink {
+
+
+.my-btn {
+   display: inline-block;
+  color: white;
+  background: #582900;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.my-btn:hover {
+  background: linear-gradient(#6E5843, #582900);
+  color: white;
+  opacity: 0.8;
+}
+
+.centre {
+	text-align: center;
+}
+
+.white {
+	color: white; 
+}
+
+
+.btn-success{
+
+ 
   display: inline-block;
   color: white;
-  background: #C86472;
+  background: #582900;
   margin: 20px;
   padding: 20px;
   border-radius: 5px;
   font-weight: bold;
 }
-
-.btn-pink:hover {
+.btn-success:hover  {
+ background: linear-gradient(#6E5843, #582900);
   color: white;
   opacity: 0.8;
 }
-.line-transparent {
-  width: 100%;
+.footer {
+  background: #F4F4F4;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
   align-items: center;
 }
-
-.line-light {
-  height: 5px;
-  width: 20%;
-  background: #EE9CA7;
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
 }
-
-.line-medium {
-  height: 5px;
-  width: 30%;
-  background: #C86472;
+.footer-links a:hover {
+  opacity: 1;
 }
-
-.line-hard {
-  height: 5px;
-  width: 50%;
-  background: #9F3442;
-}
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #E2F3DC;
-}
-
-.links {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.link {
-  margin: 10px 30px;
-  color: #9F3442;
-}
-
-.link:hover {
-  color: #458D2E;
-}
-.horizontal-position {
-    display: flex;
-    justify-content: space-between;
-    margin: 100px 100px;
-    
-}
-.preparation {
-	margin: 0px 0px 0px 10px;
-    padding: 50px 90px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px grey;
-}
-.ingredients {
-	margin: 0px 0px 0px 10px;
-    padding: 50px 90px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px grey;
+.footer .fa-heart {
+  color: #D23333;
 }
